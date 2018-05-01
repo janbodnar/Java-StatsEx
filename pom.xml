@@ -78,10 +78,6 @@
           		<mainClass>com.zetcode.SimpleJavaEx</mainClass>
           	    </manifest>
           	  </archive>
-
-              <!-- <includes>
-                <include>**/*.txt</include>
-              </includes> -->
           	</configuration>
         </plugin>
     </plugins>

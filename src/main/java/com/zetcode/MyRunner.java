@@ -1,6 +1,5 @@
 package com.zetcode;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.io.IOException;
 import com.opencsv.CSVReader;
@@ -32,8 +31,6 @@ public class MyRunner {
                     //System.out.format("%s %n", e);
                 }
             }
-
-            //vals.forEach(e -> { System.out.println(e); } );
 
             System.out.printf("The max is: %d%n", MyStats.max(vals));
             System.out.printf("The max is: %d%n", MyStats.min(vals));
