@@ -22,10 +22,10 @@ Add to stage
 
 $ git add file
 
-Push
-
-$ git push -u origin master
-
 Add remote
 
 git remote add origin https://github.com/janbodnar/wxPython-examples.git
+
+Push
+
+$ git push -u origin master
