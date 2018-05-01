@@ -1,0 +1,9 @@
+Generate Maven project
+
+$ mvn archetype:generate -DgroupId=com.zetcode -DartifactId=SimpleJavaEx
+    -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+$ git config --global user.name "John Doe"
+$ git config --get user.name
+$ git config --global user.email "jdoe@gmail.com"
