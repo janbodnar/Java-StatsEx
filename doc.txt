@@ -3,7 +3,29 @@ Generate Maven project
 $ mvn archetype:generate -DgroupId=com.zetcode -DartifactId=SimpleJavaEx
     -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
+Configure git
 
 $ git config --global user.name "John Doe"
 $ git config --get user.name
 $ git config --global user.email "jdoe@gmail.com"
+
+Init Git
+
+$ git init
+$ git add .
+
+Commit
+
+$ git commit -m "Change titles and styling on homepage"
+
+Add to stage
+
+$ git add file
+
+Push
+
+$ git push -u origin master
+
+Add remote
+
+git remote add origin https://github.com/janbodnar/wxPython-examples.git
